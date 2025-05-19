@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduReminder</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>EduReminder</h1>
+    <nav>
+      <a href="#learn">Belajar</a>
+      <a href="#reminder">Pengingat</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h2>Belajar dan Ingat Hal Penting Setiap Hari</h2>
+      <p>Website edukasi + pengingat untuk kehidupan yang lebih baik.</p>
+    </section>
+
+    <section id="learn">
+      <h3>Modul Edukasi</h3>
+      <ul>
+        <li>Kesehatan: <a href="#">Mulai Belajar</a></li>
+        <li>Keuangan: <a href="#">Mulai Belajar</a></li>
+        <li>Ibadah: <a href="#">Mulai Belajar</a></li>
+      </ul>
+    </section>
+
+    <section id="reminder">
+      <h3>Pengingat Harian</h3>
+      <button onclick="setReminder()">Aktifkan Pengingat</button>
+      <p id="reminder-status"></p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Kontak: edureminder@email.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
